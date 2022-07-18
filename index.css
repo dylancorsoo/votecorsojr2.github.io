@@ -1,0 +1,80 @@
+
+.bgcolor {
+  background-color: black;
+}
+
+.font1 {
+  font-family: bd-micronfont, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:100px;
+}
+
+.font2 {
+  font-family: ohm-bold,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fontbig {
+  font-size:150px;
+}
+
+.line {
+  height:2px;
+  border-width:0;
+  color:red;
+  background-color:red;
+}
+
+hr {
+  display: block;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.shadow {
+  text-shadow: 7px 7px ;
+}
+
+.shadow2 {
+  text-shadow: 3px 3px ;
+}
+
+.grad {
+  background: -webkit-linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradbck {
+  background-image: linear-gradient(to bottom right, red, orange);
+}
+
+.center {
+  text-align: center;
+}
+
+.vert {
+  writing-mode: vertical-rl;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.boxdow {
+  box-shadow: 5px 5px red, 10px 10px orange, 15px 15px yellow;
+}
+
+.blur {
+  text-shadow: 3px 3px 3px orange;
+}
